@@ -1,11 +1,14 @@
 {
-    "sections": {
-      "image_banner": {
-        "type": "image-banner"
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
       }
-    },
-    "order": [
-      "multicolumn"
-    ]
-  }
-  
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
